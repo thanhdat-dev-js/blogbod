@@ -102,6 +102,7 @@
         display: flex;
         width: 100%;
         border-top: 8px solid #fff;
+        flex-wrap: ;
         a {
             &:hover {
                 opacity: 0.88;
@@ -239,5 +240,8 @@
         p {
             font-size: 1.1rem;
         }
+    }
+    .footer__library a div {
+        width: 33.33333%;
     }
 }

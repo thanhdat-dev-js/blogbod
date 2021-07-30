@@ -358,12 +358,10 @@ body .header__mobile--open {
         opacity: 0;
         max-height: 0;
         transition: opacity 0.6s ease, max-height 0.8s ease;
-        visibility: hidden;
     }
     &--norminal {
         opacity: 1;
         max-height: unset;
-        visibility: visible;
     }
     &--item {
         border-top: 1px solid $border-color;
@@ -371,7 +369,6 @@ body .header__mobile--open {
             opacity: 1 !important;
             max-height: 3000px !important;
             transition: opacity 0.4s ease-in, max-height 1s ease-in !important;
-            visibility: visible;
         }
         a {
             @include reset-link;
