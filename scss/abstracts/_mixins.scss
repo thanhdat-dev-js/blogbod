@@ -1,0 +1,118 @@
+@mixin reset-list {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@mixin reset-link {
+    font-size: $text-size;
+    color: $text-color;
+    text-decoration: none;
+    display: block;
+}
+@mixin subject {
+    background-color: $white-color;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    @include title-style;
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+    text-align: center;
+}
+@mixin title-style {
+    font-size: $text-size;
+    color: $text-color;
+    line-height: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+@mixin sidebartext {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 2.3rem;
+}
+@mixin backgr {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin rps1500 {
+    @media (max-width: 1500px) {
+        @content;
+    }
+}
+@mixin rps1200 {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin rpsM940 {
+    @media (max-width: 940px) {
+        @content;
+    }
+}
+
+@mixin rpsM768 {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin rpsM540 {
+    @media (max-width: 540px) {
+        @content;
+    }
+}
+
+@mixin rpsM480 {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+@mixin rpsM360 {
+    @media (max-width: 360px) {
+        @content;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hide-5 {
+        display: none;
+    }
+}
+@media (max-width: 940px) {
+    .hide-4 {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .hide-3 {
+        display: none;
+    }
+}
+@media (max-width: 540px) {
+    .hide-2 {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .hide-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .hide-0 {
+        display: none;
+    }
+    .header__mobile--logo a {
+        height: 16px;
+    }
+}

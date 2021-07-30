@@ -1,0 +1,19 @@
+@keyframes fadeInUpSD {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fademove {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
