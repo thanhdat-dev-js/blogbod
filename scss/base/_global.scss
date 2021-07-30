@@ -41,13 +41,12 @@ body .overlay--open {
 }
 .overlay {
     background-color: #000;
-    position: absolute;
+    position: fixed;
     top: 0;
-    bottom: 0;
     z-index: 10;
     right: 0;
     left: 0;
-    height: 6200px;
+    height: 100%;
     transition: all linear 0.3s;
     opacity: 0;
     visibility: hidden;

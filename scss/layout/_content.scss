@@ -110,6 +110,14 @@
     width: 100%;
     padding-left: 30px;
     &__slider {
+        &:hover {
+            .slick-prev.slick-arrow::before {
+                opacity: 0.8;
+            }
+            .slick-next.slick-arrow::before {
+                opacity: 0.8;
+            }
+        }
         &--list {
         }
         &--item {

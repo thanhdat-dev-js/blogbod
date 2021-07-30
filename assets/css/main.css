@@ -90,13 +90,12 @@ body .overlay--open {
 
 .overlay {
   background-color: #000;
-  position: absolute;
+  position: fixed;
   top: 0;
-  bottom: 0;
   z-index: 10;
   right: 0;
   left: 0;
-  height: 6200px;
+  height: 100%;
   transition: all linear 0.3s;
   opacity: 0;
   visibility: hidden;
@@ -1220,7 +1219,7 @@ body .header__mobile--open {
     font-size: 1.1rem;
   }
 
-  .footer__library a div {
+  .footer__library a {
     width: 33.33333%;
   }
 }
@@ -1269,6 +1268,7 @@ body .header__mobile--open {
   justify-content: center;
 }
 .slider__item--brand {
+  cursor: pointer;
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
@@ -1280,6 +1280,7 @@ body .header__mobile--open {
   background-color: #000;
 }
 .slider__item--title {
+  cursor: pointer;
   line-height: 5rem;
   margin: 30px 0;
   font-weight: 900;
@@ -1288,6 +1289,7 @@ body .header__mobile--open {
   text-align: center;
 }
 .slider__item--author {
+  cursor: pointer;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.1rem;
@@ -1661,6 +1663,12 @@ body .header__mobile--open {
 .sidebar {
   width: 100%;
   padding-left: 30px;
+}
+.sidebar__slider:hover .slick-prev.slick-arrow::before {
+  opacity: 0.8;
+}
+.sidebar__slider:hover .slick-next.slick-arrow::before {
+  opacity: 0.8;
 }
 .sidebar__slider--item {
   position: relative;
