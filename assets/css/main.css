@@ -134,6 +134,7 @@ body .overlay--open {
   font-weight: 500;
   color: #666666;
   width: 60vw;
+  margin-top: 20px;
 }
 .modal__input::placeholder {
   color: #000;

@@ -83,6 +83,7 @@ body .overlay--open {
         font-weight: 500;
         color: $nav-hover-color;
         width: 60vw;
+        margin-top: 20px;
     }
     &__input::placeholder {
         color: $text-color;
