@@ -125,13 +125,13 @@
     box-shadow: $nav-drop-shadow;
     visibility: hidden;
     opacity: 0;
-    transition: $linear-2-trans;
+    transition: $ease-in-2-trans;
     background-color: $white-color;
     z-index: 1;
     &--item {
         position: relative;
         a {
-            transition: $linear-3-trans;
+            transition: $ease-in-2-trans;
             font-size: $text-size;
             color: $text-color;
             text-decoration: none;
