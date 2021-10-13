@@ -605,7 +605,7 @@ body .overlay--open {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.08), 0px 4px 11px -2px rgba(0, 0, 0, 0.06);
   visibility: hidden;
   opacity: 0;
-  transition: all linear 0.2s;
+  transition: all ease-in-out 0.1s;
   background-color: #fff;
   z-index: 1;
 }
@@ -613,7 +613,7 @@ body .overlay--open {
   position: relative;
 }
 .header__menu--item a {
-  transition: all linear 0.3s;
+  transition: all ease-in-out 0.1s;
   font-size: 1.5rem;
   color: #000;
   text-decoration: none;
@@ -647,7 +647,7 @@ body .overlay--open {
 .header__slider {
   visibility: hidden;
   opacity: 0;
-  transition: all linear 0.3s;
+  transition: all ease-in-out 0.1s;
   position: absolute;
   width: 1180px;
   top: 100%;
@@ -670,13 +670,13 @@ body .overlay--open {
 .header__slider--item {
   padding: 24px 0;
   margin: 0 12px;
-  transition: all linear 0.3s;
+  transition: all ease-in-out 0.1s;
 }
 .header__slider--img a {
   display: block;
   padding-top: 66.66667%;
   background-size: cover;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
 }
 .header__slider--img a:hover {
   opacity: 0.9;

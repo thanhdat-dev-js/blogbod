@@ -125,13 +125,13 @@
     box-shadow: $nav-drop-shadow;
     visibility: hidden;
     opacity: 0;
-    transition: $ease-in-2-trans;
+    transition: $ease-in-out-1-trans;
     background-color: $white-color;
     z-index: 1;
     &--item {
         position: relative;
         a {
-            transition: $ease-in-2-trans;
+            transition: $ease-in-out-1-trans;
             font-size: $text-size;
             color: $text-color;
             text-decoration: none;
@@ -167,7 +167,7 @@
 .header__slider {
     visibility: hidden;
     opacity: 0;
-    transition: $linear-3-trans;
+    transition: $ease-in-out-1-trans;
     position: absolute;
     width: 1180px;
     top: 100%;
@@ -189,13 +189,13 @@
     &--item {
         padding: 24px 0;
         margin: 0 12px;
-        transition: $linear-3-trans;
+        transition: $ease-in-out-1-trans;
     }
     &--img a {
         display: block;
         padding-top: 66.66667%;
         background-size: cover;
-        transition: $ease-in-out-3-trans;
+        transition: $ease-in-out-1-trans;
     }
     &--img a:hover {
         opacity: 0.9;
