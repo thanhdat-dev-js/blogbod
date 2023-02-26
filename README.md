@@ -1,5 +1,5 @@
 # BlogBold Web Clone
-> Link: https://thanhdat4421.github.io/blogbod/
+> Link: https://thanhdat-dev-js.github.io/blogbod/
 ## Component
     
 * Dropdown hover navbar
